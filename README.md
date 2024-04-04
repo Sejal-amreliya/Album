@@ -1,20 +1,29 @@
-# Album-Collection
-# Features
-Retrieves album data from the JSONPlaceholder API.
-Displays a list of albums with their respective user IDs, IDs, and titles.
-Allows deleting albums by clicking the "delete" button.
-Allows updating album details by clicking the "update" button and modifying the input fields in the form.
-Dependencies
-This component depends on the following libraries:
+Album Collection React app 
+Demo Video - https://www.youtube.com/watch?v=Ay5rrR8QRCg
 
-React: "^16.8.0" or higher
-Make sure these dependencies are installed in your project.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-# API Usage
-The component interacts with the following API endpoints:
+## Available Scripts
 
-GET https://jsonplaceholder.typicode.com/albums: Retrieves the list of albums.
-DELETE https://jsonplaceholder.typicode.com/albums/{itemId}: Deletes an album with the specified ID.
-PUT https://jsonplaceholder.typicode.com/albums/{itemId}: Updates an album with the specified ID.
+In the project directory, you can run:
+
+### `npm start`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
+
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
 
